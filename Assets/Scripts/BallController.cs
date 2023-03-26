@@ -16,6 +16,7 @@ public class BallController : MonoBehaviour
 
     public bool isGrounded;
     public bool isRunning = false;
+    public bool hasKey = false;
     private Rigidbody rigid;
     private PlayerStats stats;
 
