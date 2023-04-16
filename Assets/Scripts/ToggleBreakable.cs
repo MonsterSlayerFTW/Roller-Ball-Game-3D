@@ -5,12 +5,13 @@ using UnityEngine;
 public class ToggleBreakable : MonoBehaviour
 {
     public GameObject wall, brokenwall;
-    void Update()
+
+    private void OnTriggerEnter(Collider other)
     {
-        if(Input.GetKeyDown(KeyCode.B))
+        if (other.tag == "Player")
         {
             wall.SetActive(false);
-            Instantiate(brokenwall,transform.position,transform.rotation);
+            Instantiate(brokenwall, transform.position, transform.rotation);
         }
     }
 }
