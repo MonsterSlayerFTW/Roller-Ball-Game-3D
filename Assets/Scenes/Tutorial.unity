@@ -123,100 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &18126666
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 18126667}
-  - component: {fileID: 18126668}
-  m_Layer: 0
-  m_Name: Spot Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &18126667
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 18126666}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -3.5000038, y: 0, z: -5.499997}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1095527443}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!108 &18126668
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 18126666}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 0
-  m_Shape: 0
-  m_Color: {r: 0, g: 1, b: 0.45376158, a: 1}
-  m_Intensity: 10
-  m_Range: 10
-  m_SpotAngle: 145
-  m_InnerSpotAngle: 1
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!43 &28114200
 Mesh:
   m_ObjectHideFlags: 0
@@ -224,7 +130,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh57192
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -371,7 +277,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0.5, z: 3}
     m_Extent: {x: 2.5, y: 0.5, z: 5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -416,7 +321,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 29
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &41554966
 MeshCollider:
@@ -761,7 +666,7 @@ Transform:
   m_Children:
   - {fileID: 673140479}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 15
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &48154760
 MeshCollider:
@@ -1843,7 +1748,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh53242
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -1990,7 +1895,6 @@ Mesh:
     m_Center: {x: 0.5, y: 0.5, z: -0.5}
     m_Extent: {x: 0.5, y: 0.5, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -2008,7 +1912,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh57326
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -2155,7 +2059,6 @@ Mesh:
     m_Center: {x: -2.5, y: 0.5, z: -6}
     m_Extent: {x: 2.5, y: 0.5, z: 4}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -2172,8 +2075,8 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh53816
-  serializedVersion: 11
+  m_Name: pb_Mesh44132
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -2320,7 +2223,6 @@ Mesh:
     m_Center: {x: -0.5, y: 0.5, z: -0.5}
     m_Extent: {x: 0.5, y: 0.5, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -2740,7 +2642,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 2
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!64 &138456900
 MeshCollider:
@@ -3057,7 +2959,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh56988
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -3204,7 +3106,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0, z: -4.5}
     m_Extent: {x: 0.5, y: 1, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -3222,7 +3123,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh53726
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -3369,7 +3270,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0, z: -4.5}
     m_Extent: {x: 0.5, y: 1, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -3387,7 +3287,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh56404
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -3534,7 +3434,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0, z: -4.5}
     m_Extent: {x: 0.5, y: 1, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -3583,7 +3482,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh54024
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -3730,7 +3629,6 @@ Mesh:
     m_Center: {x: -2.5, y: 0.5, z: 2.5}
     m_Extent: {x: 5.5, y: 0.5, z: 7.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -3839,7 +3737,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -4693,7 +4590,7 @@ Transform:
   m_Children:
   - {fileID: 78974697}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &315724772
 Mesh:
@@ -4702,7 +4599,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh53546
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -4849,7 +4746,6 @@ Mesh:
     m_Center: {x: 3.5, y: 2.75, z: 15}
     m_Extent: {x: 0.5, y: 2.75, z: 20}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -4903,7 +4799,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh56390
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -5050,7 +4946,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0.5, z: 2.5}
     m_Extent: {x: 2.5, y: 0.5, z: 7.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -5096,7 +4991,7 @@ Transform:
   m_Children:
   - {fileID: 1879115834}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 23
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &406333128
 MeshCollider:
@@ -5413,7 +5308,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh57028
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -5560,7 +5455,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0.5, z: -10}
     m_Extent: {x: 2.5, y: 0.5, z: 8}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -5922,7 +5816,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh53380
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -6069,7 +5963,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0.5, z: 2}
     m_Extent: {x: 2.5, y: 0.5, z: 7}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -6087,7 +5980,7 @@ LightingSettings:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 5
+  serializedVersion: 4
   m_GIWorkflowMode: 1
   m_EnableBakedLightmaps: 1
   m_EnableRealtimeLightmaps: 0
@@ -6127,7 +6020,7 @@ LightingSettings:
   m_LightProbeSampleCountMultiplier: 4
   m_PVRBounces: 2
   m_PVRMinBounces: 1
-  m_PVREnvironmentImportanceSampling: 1
+  m_PVREnvironmentMIS: 1
   m_PVRFilteringMode: 1
   m_PVRDenoiserTypeDirect: 1
   m_PVRDenoiserTypeIndirect: 1
@@ -6142,7 +6035,6 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
   m_PVRTiledBaking: 0
-  m_NumRaysToShootPerTexel: -1
 --- !u!1 &452634606
 GameObject:
   m_ObjectHideFlags: 0
@@ -6486,7 +6378,7 @@ Transform:
   m_Children:
   - {fileID: 591148352}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &457083117
 GameObject:
@@ -7381,7 +7273,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh56838
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -7528,7 +7420,6 @@ Mesh:
     m_Center: {x: -2.5, y: 0.5, z: 2.5}
     m_Extent: {x: 5.5, y: 0.5, z: 7.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -7608,7 +7499,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh54210
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -7755,7 +7646,6 @@ Mesh:
     m_Center: {x: 3.5000024, y: 2.75, z: 28.500011}
     m_Extent: {x: 0.500002, y: 2.75, z: 3.5000048}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -7773,7 +7663,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh56720
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -7920,7 +7810,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0, z: -4.5}
     m_Extent: {x: 0.5, y: 1, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -8274,7 +8163,7 @@ Transform:
   m_Children:
   - {fileID: 788963326}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &591148351
 GameObject:
@@ -8314,7 +8203,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh57284
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -8461,7 +8350,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0, z: -4.5}
     m_Extent: {x: 0.5, y: 1, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -8846,7 +8734,7 @@ Transform:
   m_Children:
   - {fileID: 1734484873}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &673140478
 GameObject:
@@ -8886,7 +8774,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh53228
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -9033,7 +8921,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0, z: -4.5}
     m_Extent: {x: 0.5, y: 1, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -9110,7 +8997,7 @@ Transform:
   m_Children:
   - {fileID: 1425962691}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 14
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &699972341
 MeshCollider:
@@ -9455,7 +9342,7 @@ Transform:
   m_Children:
   - {fileID: 1911250948}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 26
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &719596125
 MeshCollider:
@@ -9863,7 +9750,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -10210,7 +10096,7 @@ Transform:
   m_Children:
   - {fileID: 492231513}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &755011302
 GameObject:
@@ -10569,14 +10455,13 @@ Transform:
   m_Children:
   - {fileID: 1700308579}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &755122432
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 8419056915681205970, guid: e44b754406fdf204a880397d54bb1fb9, type: 3}
@@ -10636,7 +10521,6 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e44b754406fdf204a880397d54bb1fb9, type: 3}
 --- !u!1 &788963325
 GameObject:
@@ -10740,7 +10624,7 @@ Transform:
   m_Children:
   - {fileID: 1536835979}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 18
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &827845260
 MeshCollider:
@@ -11151,7 +11035,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh53568
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -11298,7 +11182,6 @@ Mesh:
     m_Center: {x: 3.5, y: 2.75, z: 15}
     m_Extent: {x: 0.5, y: 2.75, z: 20}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -11316,7 +11199,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh53418
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -11463,7 +11346,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0.5, z: -10}
     m_Extent: {x: 2.5, y: 0.5, z: 8}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -11481,7 +11363,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh56890
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -11628,7 +11510,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0, z: -4.5}
     m_Extent: {x: 0.5, y: 1, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -11646,7 +11527,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh53740
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -11793,7 +11674,6 @@ Mesh:
     m_Center: {x: -2.5, y: 0.5, z: 2.5}
     m_Extent: {x: 5.5, y: 0.5, z: 7.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -11881,7 +11761,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -11899,7 +11778,7 @@ RectTransform:
   m_Children:
   - {fileID: 493211423}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: -1
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -11940,7 +11819,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 7
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &926337392
 MeshCollider:
@@ -12257,7 +12136,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh54134
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -12404,7 +12283,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0, z: -4.5}
     m_Extent: {x: 0.5, y: 1, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -12422,7 +12300,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh53946
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -12569,7 +12447,6 @@ Mesh:
     m_Center: {x: -2.5, y: 0.5, z: -6}
     m_Extent: {x: 2.5, y: 0.5, z: 4}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -12587,7 +12464,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh56566
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -12734,7 +12611,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0, z: -4.5}
     m_Extent: {x: 0.5, y: 1, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -13088,7 +12964,7 @@ Transform:
   m_Children:
   - {fileID: 627489936}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1033173948
 GameObject:
@@ -13124,7 +13000,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1033173950
 MeshCollider:
@@ -13434,41 +13310,6 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!1 &1095527442
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1095527443}
-  m_Layer: 0
-  m_Name: LightHolder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1095527443
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1095527442}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -13.875763, y: 37.354595, z: -16.253407}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1682376984}
-  - {fileID: 1405345732}
-  - {fileID: 1407920544}
-  - {fileID: 18126667}
-  m_Father: {fileID: 1544386500}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1101152693
 GameObject:
   m_ObjectHideFlags: 0
@@ -13504,7 +13345,7 @@ Transform:
   m_Children:
   - {fileID: 328766855}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 25
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1101152695
 MeshCollider:
@@ -13899,7 +13740,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh53612
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -14046,7 +13887,6 @@ Mesh:
     m_Center: {x: 1.5, y: 0.05041021, z: -0.75}
     m_Extent: {x: 1.5, y: 0.05041021, z: 1.25}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -14064,7 +13904,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh53974
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -14211,7 +14051,6 @@ Mesh:
     m_Center: {x: -2.5000038, y: 0.5, z: -3.141414}
     m_Extent: {x: 2.5000043, y: 0.5, z: 7.50366}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -14565,7 +14404,7 @@ Transform:
   m_Children:
   - {fileID: 66579597}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1229415407
 GameObject:
@@ -14665,7 +14504,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -14762,7 +14600,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1911866549}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -14917,7 +14755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8744c1aada615645b4c62f9b1473c92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightSwitchPrefab: {fileID: 1095527442}
+  lightSwitchPrefab: {fileID: 0}
   IsOn: 0
   listener: {fileID: 1273037432}
 --- !u!82 &1273037432
@@ -15344,7 +15182,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh54120
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -15491,7 +15329,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0, z: -4.5}
     m_Extent: {x: 0.5, y: 1, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -15536,7 +15373,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 1
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!64 &1292250274
 MeshCollider:
@@ -15881,7 +15718,7 @@ Transform:
   m_Children:
   - {fileID: 699407131}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 22
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1359515351
 MeshCollider:
@@ -16198,7 +16035,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh57104
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -16345,7 +16182,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0, z: -4.5}
     m_Extent: {x: 0.5, y: 1, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -16356,100 +16192,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &1405345731
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1405345732}
-  - component: {fileID: 1405345733}
-  m_Layer: 0
-  m_Name: Spot Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1405345732
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1405345731}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -3.5000038, y: 0, z: -1.4999962}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1095527443}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!108 &1405345733
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1405345731}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 0
-  m_Shape: 0
-  m_Color: {r: 0, g: 1, b: 0.45376158, a: 1}
-  m_Intensity: 10
-  m_Range: 10
-  m_SpotAngle: 145
-  m_InnerSpotAngle: 1
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!43 &1405539579
 Mesh:
   m_ObjectHideFlags: 0
@@ -16457,7 +16199,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh53270
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -16604,7 +16346,6 @@ Mesh:
     m_Center: {x: -2.5000045, y: 0.5, z: 2.127316}
     m_Extent: {x: 2.5000055, y: 0.5, z: 4.127317}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -16615,100 +16356,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &1407920543
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1407920544}
-  - component: {fileID: 1407920545}
-  m_Layer: 0
-  m_Name: Spot Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1407920544
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1407920543}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 2.499997, y: 0, z: -5.499996}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1095527443}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!108 &1407920545
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1407920543}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 0
-  m_Shape: 0
-  m_Color: {r: 0, g: 1, b: 0.45376158, a: 1}
-  m_Intensity: 10
-  m_Range: 10
-  m_SpotAngle: 145
-  m_InnerSpotAngle: 1
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!1 &1425962690
 GameObject:
   m_ObjectHideFlags: 0
@@ -16776,7 +16423,6 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2831208733634380613, guid: efd8520e16101c34489ca26f7f4f7500, type: 3}
@@ -16828,7 +16474,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: efd8520e16101c34489ca26f7f4f7500, type: 3}
 --- !u!1 &1447997746
 GameObject:
@@ -16864,7 +16509,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 3
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1447997748
 MeshCollider:
@@ -17181,7 +16826,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh53598
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -17328,7 +16973,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0, z: -4.5}
     m_Extent: {x: 0.5, y: 1, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -17481,7 +17125,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh54088
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -17628,7 +17272,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0, z: -4.5}
     m_Extent: {x: 0.5, y: 1, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -17644,7 +17287,6 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 7177994194124301152, guid: 834b943b5f1ec5842a9ca484bde04b49, type: 3}
@@ -17740,7 +17382,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 834b943b5f1ec5842a9ca484bde04b49, type: 3}
 --- !u!1 &1523961437
 GameObject:
@@ -17937,7 +17578,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1273037430}
-  - {fileID: 1095527443}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18695,7 +18335,7 @@ Transform:
   m_Children:
   - {fileID: 1444246980}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 17
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1602943132
 MeshCollider:
@@ -19027,100 +18667,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1682376983
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1682376984}
-  - component: {fileID: 1682376985}
-  m_Layer: 0
-  m_Name: Spot Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1682376984
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1682376983}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 2.4999962, y: 0, z: -1.4999962}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1095527443}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!108 &1682376985
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1682376983}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 0
-  m_Shape: 0
-  m_Color: {r: 0, g: 1, b: 0.45376158, a: 1}
-  m_Intensity: 10
-  m_Range: 10
-  m_SpotAngle: 145
-  m_InnerSpotAngle: 1
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!1 &1691037566
 GameObject:
   m_ObjectHideFlags: 0
@@ -19669,7 +19215,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh53498
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -19816,7 +19362,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0.5, z: 3}
     m_Extent: {x: 2.5, y: 0.5, z: 5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -20515,7 +20060,7 @@ Transform:
   m_Children:
   - {fileID: 520352391}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1801378776
 Mesh:
@@ -20524,7 +20069,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh54102
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -20671,7 +20216,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0, z: -4.5}
     m_Extent: {x: 0.5, y: 1, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -20687,7 +20231,6 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5496454791143138471, guid: 654204597e413e440ac8425c282faebb, type: 3}
@@ -20704,7 +20247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5496454791803050753, guid: 654204597e413e440ac8425c282faebb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.872
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5496454791803050753, guid: 654204597e413e440ac8425c282faebb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -20712,7 +20255,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5496454791803050753, guid: 654204597e413e440ac8425c282faebb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -36.689983
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 5496454791803050753, guid: 654204597e413e440ac8425c282faebb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20747,7 +20290,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 800876427}
     m_RemovedComponents: []
-    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 654204597e413e440ac8425c282faebb, type: 3}
 --- !u!1 &1831845228
 GameObject:
@@ -20784,7 +20326,7 @@ Transform:
   m_Children:
   - {fileID: 1245747841}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 13
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1831845230
 MeshCollider:
@@ -21101,7 +20643,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh56480
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -21248,7 +20790,6 @@ Mesh:
     m_Center: {x: -2.5000045, y: 0.5, z: 2.127316}
     m_Extent: {x: 2.5000055, y: 0.5, z: 4.127317}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -21602,7 +21143,7 @@ Transform:
   m_Children:
   - {fileID: 1264549207}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1879115833
 GameObject:
@@ -21642,7 +21183,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh56974
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -21789,7 +21330,6 @@ Mesh:
     m_Center: {x: -2.5000038, y: 0.5, z: -3.141414}
     m_Extent: {x: 2.5000043, y: 0.5, z: 7.50366}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -22143,14 +21683,13 @@ Transform:
   m_Children:
   - {fileID: 2012244798}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1904526431
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 8189155637072719821, guid: 8bacae124f36d8c42a1f9bd13fa0fb3b, type: 3}
@@ -22246,7 +21785,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bacae124f36d8c42a1f9bd13fa0fb3b, type: 3}
 --- !u!1 &1908413978
 GameObject:
@@ -22346,7 +21884,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -22480,7 +22017,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -22491,7 +22027,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh53780
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -22638,7 +22174,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0, z: -4.5}
     m_Extent: {x: 0.5, y: 1, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -22850,7 +22385,7 @@ Transform:
   m_Children:
   - {fileID: 542707999}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 24
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &2008712248
 MeshCollider:
@@ -23198,7 +22733,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh56734
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -23345,7 +22880,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0.5, z: 2}
     m_Extent: {x: 2.5, y: 0.5, z: 7}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -23363,7 +22897,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh53484
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -23510,7 +23044,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0.5, z: 2.5}
     m_Extent: {x: 2.5, y: 0.5, z: 7.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -23528,7 +23061,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh53342
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -23675,7 +23208,6 @@ Mesh:
     m_Center: {x: 0.5, y: 0.5, z: -0.5}
     m_Extent: {x: 0.5, y: 0.5, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -23693,7 +23225,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh53450
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -23840,7 +23372,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0, z: -4.5}
     m_Extent: {x: 0.5, y: 1, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -23858,7 +23389,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh56800
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -24005,7 +23536,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0, z: -4.5}
     m_Extent: {x: 0.5, y: 1, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -24359,7 +23889,7 @@ Transform:
   m_Children:
   - {fileID: 1594828555}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &2109159601
 GameObject:
@@ -24395,7 +23925,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 0
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &2109159603
 MeshCollider:
@@ -24712,7 +24242,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh57342
-  serializedVersion: 11
+  serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -24859,7 +24389,6 @@ Mesh:
     m_Center: {x: 2.5, y: 0, z: -4.5}
     m_Extent: {x: 0.5, y: 1, z: 0.5}
   m_MeshUsageFlags: 0
-  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -24905,7 +24434,7 @@ Transform:
   m_Children:
   - {fileID: 186398565}
   m_Father: {fileID: 1109036370}
-  m_RootOrder: 21
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &2136384673
 MeshCollider:
@@ -25220,7 +24749,6 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6714235668852954711, guid: 173a8a748940cc946a059ff97aaa7b9f, type: 3}
@@ -25272,5 +24800,4 @@ PrefabInstance:
       value: PlayerStatesUI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 173a8a748940cc946a059ff97aaa7b9f, type: 3}
